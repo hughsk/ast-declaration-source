@@ -1,0 +1,46 @@
+{
+  "name": "ast-declaration-source",
+  "version": "1.0.0",
+  "description": "Given an esprima/acorn-style AST, approximately find the original declaration node responsible for a variable",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel-node test.js | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "acorn": "^1.1.0",
+    "astw": "^2.0.0",
+    "babel": "^5.3.0",
+    "escodegen": "^1.6.1",
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/ast-declaration-source.git"
+  },
+  "keywords": [
+    "ast",
+    "esprima",
+    "acorn",
+    "search",
+    "definition",
+    "variable",
+    "let",
+    "const",
+    "find",
+    "analysis",
+    "static",
+    "scope"
+  ],
+  "homepage": "https://github.com/hughsk/ast-declaration-source",
+  "bugs": {
+    "url": "https://github.com/hughsk/ast-declaration-source/issues"
+  }
+}
